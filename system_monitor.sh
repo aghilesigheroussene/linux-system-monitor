@@ -3,13 +3,11 @@ RED="\e[31m"
 GREEN="\e[32m"
 YELLOW="\e[33m"
 RESET="\e[0m"
-VERSION="2.0"
-LICENCE="MIT" 
+VERSION="2.0" 
 
 print_header() {
     echo "================================="
     echo "      Linux System Monitor"
-    echo "        Licence: $LICENCE"
     echo "================================="
 }
 
@@ -124,7 +122,7 @@ case "$1" in
         print_memory_info
         print_cpu_info
         print_disk_info
-        ;;  
+        ;;
 
     *)
        echo "Unkown option"
