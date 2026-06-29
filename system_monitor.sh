@@ -27,8 +27,8 @@ get_system_info() {
 }
 
 print_system_info(){
-    printf "%-15s : %s\n" "Utilisateur" "$USER_NAME"
-    printf "%-15s : %s\n" "Machine" "$HOST_NAME"
+    printf "%-15s : %s\n" "User" "$USER_NAME"
+    printf "%-15s : %s\n" "Hostname" "$HOST_NAME"
     printf "%-15s : %s\n" "Date" "$CURRENT_DATE"
     printf "%-15s : %s\n" "Kernel" "$KERNEL"
     printf "%-15s : %s\n" "Uptime" "$UPTIME"
